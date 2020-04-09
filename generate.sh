@@ -1,4 +1,7 @@
 #!/usr/bin/sh
 
-cp *.html out
+out=out
+
+[ -d $out ] || mkdir out
+cp *.html $out
 
