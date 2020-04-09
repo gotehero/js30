@@ -2,6 +2,6 @@
 
 out=out
 
-[ -d $out ] || mkdir out
-cp *.html $out
+[ -d $out ] || mkdir $out
+cp src/* $out
 
